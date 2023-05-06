@@ -1,0 +1,28 @@
+{
+  "memory": {
+    "gpu_index": 0,
+    "max_host_mem_gb" : 16,
+    "max_gpu_mem_gb": 16,
+    "virtual_texture_count": 10,
+    "virtual_texture_shape": [1024, 1024, 1024]
+  },
+  "volume": {
+    "voxel_space": [0.00032,0.00032,0.001],
+    "voxel_dim": [23389,29581,10296]
+  },
+  "algo": {
+    "block_length": 62,
+    "padding": 1,
+    "lod": 0,
+    "smooth_count": 50,
+    "smooth_lambda": 0.5,
+    "smooth_mu": -0.53,
+    "partial_blocks_size": 512
+  },
+  "export_dir": "./test",
+  "transform": "no",
+  "transform_ratio": 2,
+  "neurons": [
+    "SWC\\SWC_1.swc"
+  ]
+}
